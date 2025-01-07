@@ -24,7 +24,7 @@ where:
     -h  show this help text
     --profile [optional] AWS CLI profile for the management account, example = management-account-profile
     --staging_bucket_name [optional] S3 Staging Bucket to upload files, example = sra-staging-123456789012-us-east-1
-    --solution_directory [optional] SRA Solution Directory Path, example = ~/aws-security-reference-architecture-examples/aws_sra_examples/solutions/cloudtrail/cloudtrail_org"
+    --solution_directory [optional] SRA Solution Directory Path, example = ~/aws-sra/aws_sra_examples/solutions/cloudtrail/cloudtrail_org"
 
 if [[ $1 == "-h" ]]; then
     echo "$usage"
