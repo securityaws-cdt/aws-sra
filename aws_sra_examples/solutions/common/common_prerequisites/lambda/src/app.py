@@ -172,6 +172,7 @@ def get_enabled_regions() -> list:  # noqa: CCR001
         "ap-northeast-1",
         "sa-east-1",
         "ap-southeast-1",
+        "ap-southeast-3",
         "us-east-1",
         "us-east-2",
         "ca-central-1",
