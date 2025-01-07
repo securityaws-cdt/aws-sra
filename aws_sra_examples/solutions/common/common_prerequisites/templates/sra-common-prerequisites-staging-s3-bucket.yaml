@@ -131,7 +131,7 @@ Conditions:
     - !Condition cCreateLambdaLogGroup
   cUsingKmsKey: !Not [!Equals [!Ref pLambdaLogGroupKmsKey, '']]
   cUseGraviton: !Or
-    - !Equals [!Ref 'AWS::Region', ap-northeast-1]
+    # - !Equals [!Ref 'AWS::Region', ap-northeast-1]
     - !Equals [!Ref 'AWS::Region', ap-south-1]
     - !Equals [!Ref 'AWS::Region', ap-southeast-1]
     - !Equals [!Ref 'AWS::Region', ap-southeast-2]
