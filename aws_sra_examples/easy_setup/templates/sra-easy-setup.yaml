@@ -2193,6 +2193,7 @@ Resources:
                 - echo Listing current directory...
                 - ls
                 - cd aws-sra
+                - chmod +x ./aws_sra_examples/utils/packaging_scripts/stage_solution.sh
                 - git checkout $SRA_REPO_BRANCH_NAME
                 - echo Showing current caller identity...
                 - aws sts get-caller-identity
