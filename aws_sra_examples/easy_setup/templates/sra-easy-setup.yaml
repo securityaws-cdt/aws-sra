@@ -2193,13 +2193,13 @@ Resources:
                 - echo Listing current directory...
                 - ls
                 - cd aws-sra
-                - chmod +x ./aws_sra_examples/utils/packaging_scripts/stage_solution.sh
                 - git checkout $SRA_REPO_BRANCH_NAME
                 - echo Showing current caller identity...
                 - aws sts get-caller-identity
                 - echo Deploying SRA staging bucket cloudformation template...
                 - aws cloudformation deploy --template-file ./aws_sra_examples/solutions/common/common_prerequisites/templates/sra-common-prerequisites-staging-s3-bucket.yaml --stack-name $SRA_STAGING_S3_BUCKET_STACK_NAME --capabilities CAPABILITY_NAMED_IAM
                 - echo Staging SRA solutions...
+                - chmod +x ./aws_sra_examples/utils/packaging_scripts/stage_solution.sh
                 - ./aws_sra_examples/utils/packaging_scripts/stage_solution.sh
             post_build:
               commands:
