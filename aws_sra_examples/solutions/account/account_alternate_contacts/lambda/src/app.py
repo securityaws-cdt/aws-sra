@@ -2,7 +2,7 @@
 
 Version: 1.0
 
-'account_alternate_contacts' solution in the repo, https://github.com/aws-samples/aws-security-reference-architecture-examples
+'account_alternate_contacts' solution in the repo
 
 Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
 SPDX-License-Identifier: MIT-0

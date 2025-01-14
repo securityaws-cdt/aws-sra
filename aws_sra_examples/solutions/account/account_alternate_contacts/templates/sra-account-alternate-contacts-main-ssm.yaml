@@ -5,7 +5,7 @@
 AWSTemplateFormatVersion: 2010-09-09
 Description:
   This template adds alternate contacts for Billing, Operations, and Security communications to the accounts. Resolving SSM parameters. -
-  'account_alternate_contacts' solution in the repo, https://github.com/aws-samples/aws-security-reference-architecture-examples (sra-1ssgnse6j)
+  'account_alternate_contacts' solution in the repo
 
 Metadata:
   SRA:

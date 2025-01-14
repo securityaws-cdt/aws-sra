@@ -3,7 +3,7 @@
 
 Version: 1.1
 
-'ec2_default_ebs_encryption' solution in the repo, https://github.com/aws-samples/aws-security-reference-architecture-examples
+'ec2_default_ebs_encryption' solution in the repo
 
 Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
 SPDX-License-Identifier: MIT-0
