@@ -149,16 +149,16 @@ Resources:
         Owner: AWS
         SourceIdentifier: ELB_TLS_HTTPS_LISTENERS_ONLY
     Type: AWS::Config::ConfigRule
-  Elbv2AcmCertificateRequired:
-    Properties:
-      ConfigRuleName: elbv2-acm-certificate-required
-      Scope:
-        ComplianceResourceTypes:
-          - AWS::ElasticLoadBalancingV2::LoadBalancer
-      Source:
-        Owner: AWS
-        SourceIdentifier: ELBV2_ACM_CERTIFICATE_REQUIRED
-    Type: AWS::Config::ConfigRule
+  # Elbv2AcmCertificateRequired:  ####------------- NOT SUPPORTED YET IN JAKARTA REGION -----######
+  #   Properties:
+  #     ConfigRuleName: elbv2-acm-certificate-required
+  #     Scope:
+  #       ComplianceResourceTypes:
+  #         - AWS::ElasticLoadBalancingV2::LoadBalancer
+  #     Source:
+  #       Owner: AWS
+  #       SourceIdentifier: ELBV2_ACM_CERTIFICATE_REQUIRED
+  #   Type: AWS::Config::ConfigRule
   EncryptedVolumes:
     Properties:
       ConfigRuleName: encrypted-volumes
