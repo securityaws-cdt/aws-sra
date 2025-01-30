@@ -152,6 +152,9 @@ Resources:
   Elbv2AcmCertificateRequired:
     Properties:
       ConfigRuleName: elbv2-acm-certificate-required
+      Scope:
+        ComplianceResourceTypes:
+          - AWS::ElasticLoadBalancingV2::LoadBalancer
       Source:
         Owner: AWS
         SourceIdentifier: ELBV2_ACM_CERTIFICATE_REQUIRED
