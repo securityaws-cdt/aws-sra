@@ -5,7 +5,7 @@
 AWSTemplateFormatVersion: 2010-09-09
 Description:
   This template enables AWS Config in AWS Organization. - 'config_org' solution in the repo,
-  https://github.com/aws-samples/aws-security-reference-architecture-examples (sra-1u3sd7f8h)
+  https://github.com/securityaws-cdt/aws-sra/
 Metadata:
   SRA:
     Version: 1.0
